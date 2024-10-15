@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bike Showroom</title>
+    <style>
+        body { margin: 0; }
+        #top { height: 50px; background-color: #333; color: white; text-align: center; line-height: 50px; }
+        #left { width: 200px; background-color: #f0f0f0; float: left; padding: 10px; }
+        #right { margin-left: 200px; padding: 10px; }
+    </style>
+</head>
+<body>
+    <frameset rows="50px, *" cols="200px, *">
+        <frame name="top" src="top.html">
+        <frameset rows="" cols="">
+            <frame name="left" src="left.html">
+            <frame name="right" src="right.html">
+        </frameset>
+    </frameset>
+</body>
+</html>
