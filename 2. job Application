@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Application</title>
+    <style>
+        /* Add your CSS styles here */
+    </style>
+</head>
+<body>
+    <form action="submit.php" method="post">
+        <input type="text" name="name" placeholder="Name" required><br>
+        <select name="degree" required>
+            <option value="">Select Degree</option>
+            <option value="Bachelor's">Bachelor's</option>
+            </select><br>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female<br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Cancel">
+    </form>
+</body>
+</html>
